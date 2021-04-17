@@ -1,4 +1,4 @@
-# git
+# Git commands
 
 ## Create a new repositoty
 
