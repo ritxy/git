@@ -1,6 +1,6 @@
 # Git commands
 
-## Create a new repositoty
+## Create a new repository
 
 >git init
 
