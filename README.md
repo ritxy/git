@@ -29,3 +29,6 @@
 ## Clone a repository
 
 >git clone <https://github.com/ritxy/git.git>
+
+## Git show branches
+git branch
