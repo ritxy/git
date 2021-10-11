@@ -56,6 +56,11 @@ If there are files in the staged area, files that must be commited ...
 
 With this command we add files in the repository and we can add a comment  describing the changes
 
+## Add file to the latest commit
+
+>git commit --ammend
+>>This will add the latest files in the stage area and modify the comment of the commit
+
 ## Show the log of the commits in the repository
 
 >git log
