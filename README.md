@@ -1,8 +1,33 @@
-# Git commands
-
-## Download git
+# Download git
 
 https://git-scm.com/downloads
+
+# What is Git
+
+Git is an open source distributed version control system designed by Linux Torvalds to handle code projects.
+
+Git is decentralized control version in opposition to SVN.
+
+# Concepts in Git
+
+When you use Git you have a copy of all the repository files and the full history of the repository.
+
+When you add or modify a file in your hard disk in your Git folder Git doesn't know anything about them.
+
+First you have to add this files to an area called "staging area" and Git knows that the files are ready to be commited in the repository.
+
+The next step is do a commit to make the changes be written in the repository.
+
+If we have downloaded the code from a repository that is in a server we can upload our changes to make them available for the rest of the people doing a "push".
+
+Areas:
+* working directory -> The directory where are our files
+* stage -> Is a place where the files are stored before do the commit
+* repository -> Is where the files are placer after do a commit
+    * The name of main branch of the repository is "main". You can have another branches for the modifications that you are doing for the project
+
+
+# GIT COMMANDS
 
 ## Check git version
 
