@@ -1,5 +1,9 @@
 # Git commands
 
+## Download git
+
+>https://git-scm.com/downloads
+
 ## Check git version
 
 >git version
