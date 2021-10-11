@@ -2,7 +2,7 @@
 
 ## Download git
 
->https://git-scm.com/downloads
+https://git-scm.com/downloads
 
 ## Check git version
 
