@@ -61,6 +61,11 @@ When we create the repository we can create a file with the name **.gitignore**,
 This commad will create a directory with the .git where is all the information of the repository.
 Delete this folder if you don't want to have the code under control of git
 
+## Clone a repository
+
+>git clone https://github.com/ritxy/git.git
+>>We clone the repository from one server to our local machine so we have all the repository in our local machine
+
 ## Check status of the repository
 
 >git status
