@@ -7,6 +7,7 @@ https://git-scm.com/downloads
 Git is an open source distributed version control system designed by Linux Torvalds to handle code projects.
 
 Git is decentralized control version in opposition to SVN.
+Each user have a complete copy of the repository with the full history in each machine.
 
 # Concepts in Git
 
@@ -26,6 +27,8 @@ Areas:
 * repository -> Is where the files are placer after do a commit
     * The name of main branch of the repository is "main". You can have another branches for the modifications that you are doing for the project
 
+# Note
+Since some version now in Git the default branch has been renamed to main so in older projects your default branch will be named master and in the new projects will be main.
 
 # GIT COMMANDS
 
@@ -84,7 +87,17 @@ With this command we add files in the repository and we can add a comment  descr
 ## Add file to the latest commit
 
 >git commit --ammend
->>This will add the latest files in the stage area and modify the comment of the commit
+>>This will add the latest files in the stage area and modify the comment of the commit. If there is any file to commit will let you change the message of the latest commit.
+
+## Make an add and commit with message at the same time
+
+>git commit -am "Message of the commit"
+>>This command works with files that are tracking with Git
+
+## Go back files since the last commit
+
+>git checkout -- .
+>>This will recover the files since the last commit. If some files are in the staging area they will not be recovered
 
 ## Show the log of the commits in the repository
 
@@ -128,7 +141,7 @@ Later we will merge our branch with the main to put our changes available for th
 >>We change to the main branch
 
 >git pull origin main
->>We download the latest changes in the main branch
+>>We download the latest changes in the main branch if our repository is shared in a network. If you are working in a project just in your computer this is not necessary.
 
 >git branch --merged
 >>Show the branches we have merged before
@@ -136,7 +149,7 @@ Later we will merge our branch with the main to put our changes available for th
 >git merge name_of_the_branch_we_are_working
 >>Put the changes of the branch in the main branch
 
->git origin master
+>git push origin main
 >>We upload the code to the repository to make it available to the rest of the people
 
 ## Delete a branch we don't need anymore
