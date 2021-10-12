@@ -30,6 +30,10 @@ Areas:
 # Note
 Since some version now in Git the default branch has been renamed to main so in older projects your default branch will be named master and in the new projects will be main.
 
+# Book about Git
+You can read a free book about Git in their webpage in this address:
+* https://git-scm.com/book/
+
 # GIT COMMANDS
 
 ## Check git version
