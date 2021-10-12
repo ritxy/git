@@ -86,6 +86,12 @@ If there are files in the staged area, files that must be commited ...
 
 >git restore --staged README.md
 
+## Recover a file that has been modified but not has been staged yet
+
+>git checkout file_modified
+This will recover file from the last commit
+The file must be tracked by Git
+
 ## Commit a file
 
 >git commit README.md
