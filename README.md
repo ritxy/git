@@ -44,10 +44,12 @@ You can read a free book about Git in their webpage in this address:
 
 Configuration for all projects
 >git config --global user.name "Developers name"
->git config --global user.mail "Developer@dev.com"
+
+>git config --global user.mail "Developer@dev.com" 
 
 Configuration just for one project
 >git config user.name "Developers name"
+
 >git config user.mail "Developer@dev.com"
 
 The changes thar we are going to do in the repository will be doing with this credetentials and they will identify us.
